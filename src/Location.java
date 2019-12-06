@@ -5,6 +5,7 @@ import java.io.PrintStream;
 import java.net.URL;
 import java.net.URLConnection;
 import java.util.Scanner;
+//import json li
 
 //import org.json.JSONObject;
 public class Location {
@@ -28,7 +29,7 @@ public class Location {
     public String getS() {
         return s;
     }
-
+// what do u mean with name plase explain
     String s = "name";
 
 
@@ -58,4 +59,6 @@ public class Location {
         }
         br.close();
     }
+    
+   //here u can use json to get the objects and to get the strings 
 }
